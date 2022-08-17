@@ -70,4 +70,4 @@ application.layout = html.Div([dcc.Location(id="url"),
 
 
 if __name__ == "__main__":
-    application.run_server(debug=False)
+    application.run_server(debug=True)
