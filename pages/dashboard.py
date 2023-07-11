@@ -13,7 +13,7 @@ def layout(project_name=None):
     return html.Div([
         project_name,
         html.Iframe(
-            src="assets/census_report.html",  # must be under assets/ to be properly served
+            src="assets/evidently_tests_report.html",  # must be under assets/ to be properly served
             style={"height": "1080px", "width": "100%"},
         )
     ])
